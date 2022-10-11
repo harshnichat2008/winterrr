@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Winterrr</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="shortcut icon" href="snowflake.png" type="image/x-icon" />
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+      <!-- header section starts -->
+      <header class="head" id="head">
+          <div class="img_logo"><img src="logo.png" class="logo"></div>
+          <nav>
+            <a href="#home" class="link">Home</a>
+            <a href="#about" class="link">About</a>
+            <a href="#equipment" class="link">Equipment</a>
+            <a href="#learn" class="link">Learn</a>
+            <a href="#competition" class="link">Competition</a>
+            <a href="#prizes" class="link">Prizes</a>
+            <a href="#contact" class="link">Contact</a>
+            <button class="join_btn" id="join">Join Now</button>
+          </nav>
+      </header>
+      <!-- header section ends -->
+
+      <!-- home section starts -->
+      <section class="home" id="home">
+        <div class="content1">
+          <h1 class="heading1">Can't wait for winter</h1>
+          <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempore fugit animi atque non, explicabo hic voluptates sit aliquid eaque.</p>
+          <div class="a_dec"><a href="#" class="anchor">Join Now</a></div>
+        </div>
+        <img src="skiier.png" class="image">
+      </section>
+      <!-- home section ends -->
+
+      <!-- about seection starts -->
+      <section class="about" id="about">
+        <div class="content2">
+        <h2 class="heading2"><span class="cc">About</span> us</h2>
+        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatem dolorum sit similique voluptatum reiciendis impedit sapiente repellat quas laborum.</p>
+        </div>
+        <div class="about_images">
+          <img src="winter walk.png" class="about_image">
+          <img src="snowfun.png" class="about_image">
+          <img src="camping.png" class="about_image">
+        </div>
+        <div class="about_content">
+          <h3 class="heading3">Winter activities</h3>
+          <h3 class="heading3">Snow fun</h3>
+          <h3 class="heading3">Camping</h3>
+        </div>
+      </section>
+      <div class="about_list">
+        <ul class="list">
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Winter walk</li></div>
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Winter skiing</li></div>
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Snowboarding</li></div>
+        </ul>
+        <ul class="list">
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Making snowman</li></div>
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Collecting snowflakes</li></div>
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Playing snowballs</li></div>
+        </ul>
+        <ul class="list">
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Privacy and safety</li></div>
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Protection aganist cold</li></div>
+          <div class="icon_manager"><span class="material-icons">arrow_forward_ios</span><li class="about_feature">Healthy food</li></div>
+        </ul>
+      </div>
+    </section>
+      <!-- about seection ends -->
+
+      <!-- equipment section starts -->
+      <section class="equipment" id="equipment">
+        <div class="content2">
+          <h2 class="heading2">Buy our<span class="cc"> Equipments</span></h2>
+        </div>
+        <div class="slide_cont">
+
+          <div class="slide" id="slide1">
+            <div class="slide_img">
+              <span class="material-icons" id="prev_slide1" onclick="slide3()">chevron_left</span>
+              <img src="winter sweater.png" class="product">
+              <span class="material-icons" id="next_slide1" onclick="slide2()">chevron_right</span>
+            </div>
+            <div class="slide_content">
+              <div class="price">
+                <h4 class="heading4">price</h4>
+                <h5 class="heading5">$42</h5>
+              </div>
+              <div class="pro_name">
+                <h3 class="heading6">winter sweater</h3>
+              </div>
+              <div class="link">
+                <a href="#" class="anchor">Book</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide" id="slide2">
+            <div class="slide_img">
+              <span class="material-icons" id="prev_slide2" onclick="slide1()">chevron_left</span>
+              <img src="skiing pole and stick.png" class="product">
+              <span class="material-icons" id="next_slide2" onclick="slide3()">chevron_right</span>
+            </div>
+            <div class="slide_content">
+              <div class="price">
+                <h4 class="heading4">price</h4>
+                <h5 class="heading5">$56</h5>
+              </div>
+              <div class="pro_name">
+                <h3 class="heading6">skiing pole and sticks</h3>
+              </div>
+              <div class="link">
+                <a href="#" class="anchor">Book</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide" id="slide3">
+            <div class="slide_img">
+              <span class="material-icons" id="prev_slide3" onclick="slide2()">chevron_left</span>
+              <img src="hand gloves.png" class="product">
+              <span class="material-icons" id="next_slide3" onclick="slide1()">chevron_right</span>
+            </div>
+            <div class="slide_content">
+              <div class="price">
+                <h4 class="heading4">price</h4>
+                <h5 class="heading5">$12</h5>
+              </div>
+              <div class="pro_name">
+                <h3 class="heading6">hand gloves</h3>
+              </div>
+              <div class="link">
+                <a href="#" class="anchor">Book</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- equipment section ends -->
+
+      <!-- learn section starts -->
+      <section class="learn" id="learn">
+        <div class="content2">
+          <h2 class="heading2">Our<span class="cc"> Trainings</span></h2>
+        </div>
+
+        <div class="learn_cont">
+          <div class="learn_card">
+            <img src="ice skiing.jpg" alt="">
+            <h3 class="heading7">ICE SKIING</h3>
+            <h4 class="heading8">$99.99</h4>
+            <ul>
+              <li class="feature">10 day skiing course</li>
+              <li class="feature">Available in December month</li>
+              <li class="feature">Learn from zero to hero</li>
+              <li class="feature">Experienced coaches and instructors</li>
+              <li class="feature">Pure fresh veg meals</li>
+              <li class="feature">Best equipments</li>
+              <li class="feature">Latest ski techniques</li>
+              <li class="feature">Comfortable restaurants</li>
+              <li class="feature">Sports and Games</li>
+              <li class="feature">Precautions for safety</li>
+              <li class="feature">Protection from extreme temperature</li>
+            </ul>
+            <div class="learn_link">
+              <a href="#" class="anchor">Book Now</a>
+            </div>
+          </div>
+
+        <div class="learn_cont">
+          <div class="learn_card">
+            <img src="night camp.jpg" alt="">
+            <h3 class="heading7">Camping</h3>
+            <h4 class="heading8">$49.00</h4>
+            <ul>
+              <li class="feature">3 day camping course</li>
+              <li class="feature">Camp fire at night</li>
+              <li class="feature">Boating available</li>
+              <li class="feature">Cycling on hills</li>
+              <li class="feature">Live music system</li>
+              <li class="feature">100% safety and security</li>
+              <li class="feature">Protection against cold</li>
+              <li class="feature">Coffee cafes</li>
+              <li class="feature">Sports and Games</li>
+              <li class="feature">Adventure</li>
+              <li class="feature">Natural beauty and scenes</li>
+            </ul>
+            <div class="learn_link">
+              <a href="#" class="anchor">Book Now</a>
+            </div>
+          </div>
+
+        <div class="learn_cont">
+          <div class="learn_card">
+            <img src="snowboarding.jpg" alt="">
+            <h3 class="heading7">SNOWBOARDING</h3>
+            <h4 class="heading8">$55.20</h4>
+            <ul>
+              <li>Learning from basics</li>
+              <li>5 day snowboarding course</li>
+              <li>Experienced coaches and instructors</li>
+              <li>Morning tea and breakfast</li>
+              <li>Helmets for safety and security</li>
+              <li>Fresh meals in morning and night</li>
+              <li>First aid kit for protection</li>
+            </ul>
+            <div class="learn_link">
+              <a href="#" class="anchor">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- learn section ends -->
+
+      <!-- competition section starts -->
+      <section class="competition" id="competition">
+
+        <div class="content2">
+          <h2 class="heading2">Participate in our<span class="cc"> competitions</span></h2>
+          <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatem dolorum sit similique voluptatum reiciendis impedit sapiente repellat quas laborum.</p>
+          <div class="a_dec"><a href="#" class="anchor">Participate Now</a></div>
+          <h3 class="heading9">Sports to participate</h3>
+          <ul>
+            <li class="comp_sports">Ice Hockey</li>
+            <li class="comp_sports">Winter skiing</li>
+            <li class="comp_sports">Snowboarding</li>
+          </ul>
+          <h3 class="heading9">We have</h3>
+            <div class="numbers">
+              <h2 class="number">12K+</h2>
+              <h2 class="number">10K+</h2>
+              <h2 class="number">550+</h2>
+            </div>
+            <div class="comp_label">
+              <h2 class="label">Learners</h2>
+              <h2 class="label">Participants</h2>
+              <h2 class="label">Winners</h2>
+            </div>
+        </div>
+        <div class="comp_img">
+          <div class="price">
+            <h4 class="heading4">fees</h4>
+            <h5 class="heading5">$25.90</h5>
+          </div>
+          <img src="competition.jpg" alt="competition.jpg" class="comp_image">
+        </div>
+
+      </section>
+      <!-- competition section ends -->
+
+      <!-- prizes section starts -->
+      <section class="prizes" id="prizes">
+        <div class="prizes_img">
+          <div class="content2">
+            <h2 class="heading2 prize">Win our exciting<span class="cc"> prizes</span></h2>
+          </div>
+          <img src="winner.png" alt="winner.png">
+        </div>
+        <div class="content3">
+          <div class="rank">
+            <img src="rank 1.png" alt="rank 1.png">
+            <h3 class="heading10">$50.00</h3>
+          </div>
+          <div class="rank">
+            <img src="rank 2.png" alt="rank 2.png">
+            <h3 class="heading10">$30.00</h3>
+          </div>
+          <div class="rank">
+            <img src="rank 3.png" alt="rank 3.png">
+            <h3 class="heading10">$10.00</h3>
+          </div>
+          <i><h2 class="heading11">With participation certificate</h2></i>
+          <div class="a_dec"><a href="#" class="anchor">Participate Now</a></div>
+        </div>
+      </section>
+      <!-- prizes section ends -->
+
+      <!-- contact section starts -->
+      <section class="contact" id="contact">
+        <div class="content2">
+          <div class="content2">
+            <h2 class="heading2"><span class="cc">Contact</span> us</h2>
+          </div>
+          <input type="text" placeholder="Your Name" class="text_box">
+          <input type="text" placeholder="Your Email" class="text_box">
+          <input type="text" placeholder="Your Number" class="text_box">
+          <input type="text" placeholder="Type Message here..." class="text_box">
+          <div class="a_dec submit"><a href="#" class="anchor">Submit</a></div>
+        </div>
+        <div class="contact_img">
+          <img src="contact.png" alt="contact.png">
+        </div>
+      </section>
+      <!-- contact section ends -->
+
+      <!-- footer section starts -->
+      <footer>
+        <div class="footer_logo"><img src="logo.png" class="footer_logo"></div>
+        <div>
+          <a href="#home" class="footer_link">Home</a>
+          <a href="#about" class="footer_link">About</a>
+          <a href="#equipment" class="footer_link">Equipment</a>
+          <a href="#learn" class="footer_link">Learn</a>
+          <a href="#competition" class="footer_link">Competition</a>
+          <a href="#prizes" class="footer_link">Prizes</a>
+          <a href="#contact" class="footer_link">Contact</a>
+        </div>
+        <div class="footer_icons">
+          <a href="#" class="fa fa-facebook"></a><a href="#"></a>
+          <a href="#" class="fa fa-instagram"></a><a href="#"></a>
+          <a href="#" class="fa fa-twitter"></a><a href="#"></a>
+          <a href="#" class="fa fa-youtube"></a><a href="#"></a>
+        </div>
+      </footer>
+      <main><h2 class="credit">Created by Harsh Nichat | All rights reserved</h2></main>
+      <!-- footer section ends -->
+  </body>
+</html>
